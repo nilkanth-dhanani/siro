@@ -1,0 +1,13 @@
+@import '../typography/typography.scss';
+
+footer {
+    background-color: var(--bgcolor1);
+    padding: 40px 80px;
+    .footer-div1 {
+        .footer-div1-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 22px;
+        }
+    }
+}

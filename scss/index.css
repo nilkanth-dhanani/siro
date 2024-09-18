@@ -1,0 +1,135 @@
+.first-div3-main2 button {
+  background-color: var(--color2);
+  color: var(--bgcolor1);
+  border: 1px solid transparent;
+  padding: 12px 25px;
+  border-radius: 99px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  line-height: 24px;
+  line-height: 18px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.first-div3-main2 button:hover {
+  background-color: var(--bgcolor2);
+  transition: 0.3s ease-in-out;
+}
+
+.video-position-absolute-div-button {
+  display: flex;
+  justify-content: center;
+}
+.video-position-absolute-div-button button {
+  background-color: var(--color2);
+  color: var(--bgcolor1);
+  border: 1px solid transparent;
+  padding: 12px 25px;
+  border-radius: 99px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  line-height: 24px;
+  line-height: 18px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.video-position-absolute-div-button button:hover {
+  background-color: var(--bgcolor2);
+  transition: 0.3s ease-in-out;
+}
+
+.video-position-absolute-div-button2 {
+  display: flex;
+  justify-content: center;
+}
+.video-position-absolute-div-button2 button {
+  background-color: transparent;
+  color: var(--color2);
+  border: 1px solid var(--color2);
+  padding: 12px 25px;
+  border-radius: 99px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  line-height: 24px;
+  line-height: 18px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.video-position-absolute-div-button2 button:hover {
+  color: var(--bgcolor1);
+  background-color: var(--bgcolor2);
+  border: 1px solid transparent;
+  transition: 0.3s ease-in-out;
+}
+
+.featuredTow-grid-one-div2 {
+  display: flex;
+  justify-content: center;
+}
+.featuredTow-grid-one-div2 button {
+  background-color: transparent;
+  color: var(--bgcolor1);
+  border: 1px solid var(--bgcolor1);
+  padding: 12px 25px;
+  border-radius: 99px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  line-height: 24px;
+  line-height: 18px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.featuredTow-grid-one-div2 button:hover {
+  color: var(--color2);
+  background-color: var(--bgcolor1);
+  transition: 0.3s ease-in-out;
+}
+
+.featured-Single-relative-div button {
+  background-color: var(--color2);
+  color: var(--bgcolor1);
+  border: 1px solid transparent;
+  padding: 12px 25px;
+  border-radius: 99px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  line-height: 24px;
+  line-height: 18px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.featured-Single-relative-div button:hover {
+  background-color: var(--bgcolor2);
+  transition: 0.3s ease-in-out;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.footer-container {
+  max-width: 1743px;
+  margin: 0 auto;
+}
+
+:root {
+  --bgcolor1: #1c3532;
+  --bgcolor2: #eef90c;
+  --color1: #000;
+  --color2: #fff;
+  --bordercolor: #e6e8ef;
+  --bordercolor1: #e3e3e4;
+  --font-family: "Roboto", sans-serif;
+  --font-family2: "Nunito", sans-serif;
+}/*# sourceMappingURL=index.css.map */

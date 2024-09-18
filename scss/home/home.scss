@@ -1,0 +1,236 @@
+@import "../index.scss";
+@import "../header/header.scss";
+@import "../footer/footer.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    .video-position {
+        position: relative;
+
+        .video-position-div {
+            width: 100%;
+            height: 100vh;
+
+            video {
+                display: block;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .video-position-absolute {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .video-position-absolute-div {
+                h1 {
+                    @include font44;
+                    color: var(--color2);
+                    padding-bottom: 20px;
+                    text-align: center;
+                }
+
+                p {
+                    @include font16;
+                    color: var(--color2);
+                    padding-bottom: 32px;
+                    text-align: center;
+                    max-width: 900px;
+                }
+
+                span {
+                    @include font14;
+                    color: var(--color2);
+                    text-align: center;
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .featuredTow {
+        padding: 60px 0;
+
+        .container {
+            .featuredTow-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+                color: var(--bgcolor1);
+
+                .featuredTow-grid-one {
+                    padding: 60px;
+                    text-align: center;
+
+                    img {
+                        margin-bottom: 40px;
+                    }
+
+                    h2 {
+                        @include font32;
+                        padding-bottom: 16px;
+                        text-align: center;
+                    }
+
+                    .featuredTow-grid-one-div1-pera {
+                        display: flex;
+                        justify-content: center;
+
+                        p {
+                            @include font16;
+                            padding-bottom: 24px;
+                            text-align: center;
+                            max-width: 325px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .featured-Single {
+        padding: 80px 0;
+
+        .container {
+            .featured-Single-img {
+                position: relative;
+                height: 640px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                &::after {
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                .featured-Single-relative {
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: flex-end;
+                    z-index: 1;
+
+                    .featured-Single-relative-div {
+                        padding: 80px;
+                        width: 100%;
+
+                        h2 {
+                            @include font38;
+                            color: var(--color2);
+                            padding-bottom: 20px;
+                        }
+
+                        p {
+                            @include font16;
+                            color: var(--color2);
+                            padding-bottom: 32px;
+                            max-width: 300px;
+                        }
+
+                        .featured-Single-relative-div-pera {
+                            p {
+                                @include font12;
+                                color: var(--color2);
+                                font-style: italic;
+                                padding: 52px 0 0 0;
+                                max-width: 410px;
+
+                                a {
+                                    color: var(--color2);
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .listCarousel {
+        padding: 0 0 80px 0;
+
+        .container {
+            .listCarousel-head {
+                padding-bottom: 20px;
+
+                h2 {
+                    @include font38;
+                    color: var(--color1);
+                }
+            }
+
+            .listCarousel-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+
+                .listCarousel-grid-div {
+                    padding: 0 10px;
+
+                    img {
+                        width: 100%;
+                        height: 549px;
+                        border-radius: 10px;
+                        display: block;
+                    }
+
+                    .listCarousel-grid-div1 {
+                        padding-top: 24px;
+
+                        span {
+                            display: block;
+                            @include font14;
+                            color: var(--color1);
+                        }
+
+                        h4 {
+                            @include font26;
+                            color: var(--color1);
+                            padding: 12px 0 16px 0;
+                        }
+
+                        a {
+                            display: block;
+                            @include font14;
+                            color: var(--color1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
